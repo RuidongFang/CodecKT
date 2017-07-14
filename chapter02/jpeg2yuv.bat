@@ -1,4 +1,4 @@
-:: 从JPEG生成不同格式的YUV
+:: 浠嶫PEG鐢熸垚涓嶅悓鏍煎紡鐨刌UV瑙嗛
 :: yuv420p
 ffmpeg.exe -y -i frdB.E._670x503.jpg -s 1920x1080 -pix_fmt yuv420p frdB.E._1920x1080_yuv420p.yuv
 ffmpeg.exe -y -i frdM.E._4472x2822.jpg -s 1920x1080 -pix_fmt yuv420p frdM.E._1920x1080_yuv420p.yuv
